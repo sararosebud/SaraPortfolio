@@ -1,0 +1,191 @@
+/* <!-- add reset and remember flexboxes --> */
+
+/* Universal selector */
+* {
+    font-family: 'Amatic SC', serif;  }
+
+* {
+    box-sizing: border-box;
+    
+      }
+      
+  
+  /* Element selectors */
+  body {
+  background-color: rgb(131, 131, 131);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: flex-start;
+
+  }
+  
+  header {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+
+    border: 10px dotted #af9f9f;
+    background-color: #f0ead6;
+    font-display:inherit;
+
+   
+  }
+  nav {
+    display: flex;
+    background-color: #d8a47f;
+    height:100px;
+    font-size: x-large;
+}
+    
+
+nav a {
+    color: #13293d;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;}
+
+  h1 {
+    color: #312f2f;
+    font-size: 48px;
+    font-family: 'Amatic SC';  }
+
+ h2{
+    color:#1a1a1a;
+    font-size: 38px;
+    line-height: 100px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    
+}   
+
+ 
+
+
+  figure {
+    width: 200px;
+    background-color: #f0ead6cb;
+    
+  }
+
+
+ ul {
+  list-style-type: none;
+ }
+
+
+ img {
+    max-width: 200px;
+    border-radius: 20px;
+ }
+
+  
+  /* Class selector */
+
+
+  .box {
+    width: 70%;
+    /* Sets top and bottom margin to 20px. Auto will center element */
+    margin: 20px auto;
+    border-bottom: 5px solid #af9f9f;
+    background-color: #838383;
+
+  }
+  
+
+  .highlighted-text {
+    text-align: auto;
+    font-weight: bolder;
+    color:rgb(129, 129, 124)
+    
+  }
+
+  about-me {
+    
+    flex-flow: row;
+  }
+
+  
+  /* ID selector */
+  
+  
+
+  #about-me-section {
+    
+        width: 600px;
+        height: 600px;
+        text-align: center;
+        border: 15px dotted grey;
+        background-color:grey;
+        text-align: center;
+        font-size: 36px;}
+    
+    
+    
+    
+  
+
+  #portfolio-section {
+    background-color: #af9f9f;
+    font-size: 28px;
+    text-align: center;
+    
+  }
+  
+  #contact-section {
+    background-color: #f0ead6;
+    font-size: 28px;
+    text-align: center;
+  }
+
+    #links {
+        text-align:right;
+        padding-right: 20px;
+       font-size: 36px;
+       box-shadow: #312f2f;
+       color: #312f2f;
+        
+       
+        }
+        
+     #clickable {
+        text-align:right;
+        padding-right: 20px;
+       font-size: 36px;
+       box-shadow: #312f2f;
+       color: rgb(107, 109, 109);
+     }   
+    
+
+.image-radius {
+        border-radius: 20px;
+    
+    }    
+.image-padding {
+    /* Sets padding on all sides to 20px */
+    padding: 20px;
+    background-color: #928b8f;
+  }
+  
+  .image-border {
+    /* Sets border on all sides */
+    border: 10px solid #f0ead6cb;
+  }
+  
+  .image-margin {
+    /* Sets all sides to 20px */
+    margin: 20px; }
+    
+  footer {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    color: #2c2c2b;
+    background-color: #af9f9f;
+    margin-inline-start: auto;
+    font-size: 36px; 
+    text-align: center;
+  }
+
