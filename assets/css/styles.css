@@ -58,6 +58,7 @@ h1 {
 
 h2 {
   color: #1a1a1a;
+  max-width: 100%;
   font-size: 38px;
   line-height: 50px;
   border-radius: 20px;
@@ -79,18 +80,28 @@ img {
 
 /* Class selector */
 
-.flex-container {
+.flex-container-1 {
   display: flex;
   flex-wrap: wrap;
-  
-  margin: auto;
-  justify-content:space-around
+    margin: auto;
+  justify-content:space-evenly;
+  overflow: auto;
 }
 
 .hover:hover {
   border: 5px dotted rgb(10, 10, 10);
   border-radius: 20px;
 }
+
+/* .code-card .card-header {
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+}
+.code-card:hover,
+.code-card:hover .card-header {
+  box-shadow: inset 0px 0px 8px rgba (232, 102, 236, 1), 0 0 15px,
+    rgba(232, 102, 236, 1);
+} */
 
 .highlighted-text {
   color: #524135;
@@ -120,6 +131,8 @@ img {
   max-block-size: 50px;
 }
 
+
+
 /* ID selector */
 
 #about-me-section {
@@ -132,6 +145,7 @@ img {
   background-color: rgb(83, 83, 83);
   text-align: center;
   font-size: 36px;
+  user-select: all;
 }
 
 #portfolio-section {
@@ -142,6 +156,8 @@ img {
   background-color: #af9f9f;
   font-size: 28px;
   text-align: center;
+  
+
 }
 
 #project1 {
@@ -155,6 +171,7 @@ img {
   text-align: center;
   font-size: 36px;
   color: white;
+ 
 }
 
 #project2 {
@@ -197,9 +214,18 @@ img {
 }
 
 #contact-section {
-  display: flex;
-  flex-direction:row;
-  flex-wrap:wrap;
+
+
+  max-width: 100%;
+  border-radius: 20px;
+  max-height: fit-content;
+  padding-bottom: 10%;
+  font-size: 28px;
+  text-align: center;
+  
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   box-sizing: content-box;
 
   max-width: 100%;
@@ -207,13 +233,12 @@ img {
   padding-bottom: 5%;
   line-height: auto;
   border-radius: 20px;
-
+/*  */
   background-color: #f0ead6;
-  font-size: 28px;
-  text-align: center;
+  /* font-size: 28px; */
+  /* text-align: center; */
 }
 #email {
-  
   width: 600px;
   max-height: fit-content;
   max-width: 100%;
@@ -222,7 +247,7 @@ img {
   border-radius: 20px;
   background-color: rgb(83, 83, 83);
   color: antiquewhite;
-  
+
   font-size: 36px;
 }
 
@@ -235,24 +260,22 @@ img {
   border-radius: 20px;
   background-color: rgb(83, 83, 83);
   color: antiquewhite;
-  
 
-  font-size: 36px;}
+  font-size: 36px;
+}
 
-  #portfoliocontact {
-    width: 600px;
-    max-height: fit-content;
-    max-width: 100%;
-    text-align: center;
-    border: 5px solid grey;
-    border-radius: 20px;
-    background-color: rgb(83, 83, 83);
-    color: antiquewhite;
-    
-  
-    font-size: 36px;
-  }
+#portfoliocontact {
+  width: 600px;
+  max-height: fit-content;
+  max-width: 100%;
+  text-align: center;
+  border: 5px solid grey;
+  border-radius: 20px;
+  background-color: rgb(83, 83, 83);
+  color: antiquewhite;
 
+  font-size: 36px;
+}
 
 #contact {
   flex-wrap: wrap;
