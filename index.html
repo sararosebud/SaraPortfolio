@@ -19,16 +19,16 @@
 
        <!-- Navbar -->
          <nav>
-         <a href="#about-me-section">About Me</a>
-         <a href="#portfolio-section">Portfolio</a>
-         <a href="#contact-section">Contact</a>
+         <a href="#about-me-section" class="hover">About Me</a>
+         <a href="#portfolio-section" class="hover">Portfolio</a>
+         <a href="#contact-section" class="hover">Contact</a>
     
          </nav>
 
         <main>
             <section class="about-me" id="about-me-section">
              <h2>About Me</h2>
-            <figure id="figure">
+            <figure id="figure" class="hover">
 
           <img class="image-padding image-border image-margin image-radius" id="img" src="./assets/images/sara-wendland.jpg" alt="photo of woman with and on cheek smiling"
           
@@ -42,13 +42,13 @@
       </section>
 
       
-      <section  id="portfolio-section">
+      <section  id="portfolio-section" class="flex-container hover">
         <h2>Portfolio</h2>
         <ul class="flex-container" id="projects">
-            <li id="project1" class="highlighted-text"> <a href="project1">Project One</a></li>
-            <li id="project2" class="highlighted-text"> <a href="project2">Project Two</a></li>
-            <li id="project3" class="highlighted-text"> <a href="project3">Project Two</a></li>
-            <li id="project4" class="highlighted-text"> <a href="project4">Project Two</a></li>
+            <li id="project1" > <a href="project1" class="highlighted-text-1 hover">Project One</a></li>
+            <li id="project2" > <a href="project2" class="highlighted-text-1 hover">Project Two</a></li>
+            <li id="project3"> <a href="project3" class="highlighted-text-1 hover">Project Three</a></li>
+            <li id="project4" > <a href="project4" class="highlighted-text-1 hover">Project Four</a></li>
         
         </li>
         </ul>
@@ -61,12 +61,13 @@
         
 
 
-      <section id="contact-section">
+      <section id="contact-section" class="flex-container hover">
+        
         <h2>Contact Information</h2>
-        <ul class="flex-container">
-          <li>Email: <a class="highlighted-text" href="#">info@rosebudsara.com</a></li>
-          <li>GitHub: <a  class="highlighted-text" href="https://github.com/sararosebud" target="_blank">sararosebud</a></li>
-          <li>Portfolio: <a  class="highlighted-text" href="#">coming soon</a></li>
+        <ul class="flex-container" id="contact">
+          <li id="email">Email: <a class="highlighted-text" id='hltext' href="#">info@rosebudsara.com</a></li>
+          <li id="github">GitHub: <a  class="highlighted-text" id='hltext' href="https://github.com/sararosebud" target="_blank">sararosebud</a></li>
+          <li id="portfoliocontact">Portfolio: <a  class="highlighted-text" id='hltext' href="#">coming soon</a></li>
         </ul>
 
         <br>
