@@ -182,9 +182,11 @@ nav a {
         text-align: center;
         border: 5px solid grey; border-radius: 20px;
         background-color:rgb(83, 83, 83);
-        color:antiquewhite
-        text-align: center;
-        font-size: 36px;}
+        color:antiquewhite;
+        text-align: center;      
+
+        font-size: 36px;
+      }
   
   #contact-section {
     background-color: #f0ead6;
