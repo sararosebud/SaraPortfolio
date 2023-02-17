@@ -18,10 +18,10 @@
   flex-direction: column;
   min-height: 100vh;
   justify-content: flex-start;
-   /* Sets the position of the body to relative */
-   position: relative;
-   margin: 0;
-   padding: 0;
+  /* Sets the position of the body to relative */
+  position: relative;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -83,16 +83,13 @@ img {
   border-radius: 20px;
 }
 
-
-
 /* Class selector */
 
 .container {
-  position:relative;
+  position: relative;
   text-align: center;
   color: white;
-  justify-content:space-around
-  
+  justify-content: space-around;
 }
 
 /* Centered text */
@@ -106,12 +103,12 @@ img {
   display: block;
 }
 
-
 .flex-container-1 {
   display: flex;
-  flex-wrap: wrap;  
-  padding-top:10%;
-  justify-content:space-around;
+  flex-wrap: wrap;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  justify-content: space-around;
   overflow: auto;
 }
 
@@ -119,8 +116,6 @@ img {
   border: 5px dotted rgb(10, 10, 10);
   border-radius: 20px;
 }
-
-
 
 .highlighted-text {
   color: #524135;
@@ -148,6 +143,7 @@ img {
   flex-flow: row;
   max-height: 200px;
   max-block-size: 50px;
+  padding-bottom: 5%;
 }
 
 .code-card .card-header {
@@ -163,11 +159,10 @@ img {
 .card {
   border-style: solid;
   border-width: 1px;
-  padding:0;
+  padding: 0;
   float: left;
   width: 25%;
 }
-
 
 /* Cards are split into two columns at 992px or smaller */
 @media screen and (max-width: 992px) {
@@ -191,6 +186,24 @@ img {
   }
 }
 
+.image-radius {
+  border-radius: 20px;
+}
+.image-padding {
+  /* Sets padding on all sides to 20px */
+  padding: 20px;
+  background-color: #928b8f;
+}
+
+.image-border {
+  /* Sets border on all sides */
+  border: 10px solid #f0ead6cb;
+}
+
+.image-margin {
+  /* Sets all sides to 20px */
+  margin: 20px;
+}
 
 /* ID selector */
 
@@ -208,7 +221,7 @@ img {
 }
 #figure {
   width: 100%;
-  max-height:fit-content;
+  max-height: fit-content;
   max-width: fit-content;
   display: flexbox;
   flex-wrap: wrap;
@@ -220,17 +233,13 @@ img {
   max-width: 100%;
   border-radius: 20px;
   max-height: fit-content;
-  padding-bottom: 10%;
+
   font-size: 28px;
   text-align: center;
-     background-color: #af9f9f;
- 
-  
-
+  background-color: #af9f9f;
 }
 
 #project1 {
-
   max-height: fit-content;
   max-width: 100%;
   text-align: center;
@@ -240,11 +249,9 @@ img {
   text-align: center;
   font-size: 36px;
   color: white;
- 
 }
 
 #project2 {
- 
   max-height: fit-content;
   max-width: 100%;
   text-align: center;
@@ -254,11 +261,9 @@ img {
   text-align: center;
   font-size: 36px;
   color: rgb(247, 164, 192);
-  
 }
 
 #project3 {
-  
   max-height: fit-content;
   max-width: 100%;
   text-align: center;
@@ -271,7 +276,6 @@ img {
 }
 
 #project4 {
-  
   max-height: fit-content;
   max-width: 100%;
   text-align: center;
@@ -284,14 +288,13 @@ img {
 }
 
 #contact-section {
-
   max-width: 100%;
   border-radius: 20px;
   max-height: fit-content;
-  padding-bottom: 10%;
+
   font-size: 28px;
   text-align: center;
-  
+
   /* display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -370,32 +373,14 @@ img {
   color: rgb(107, 109, 109);
 }
 
-.image-radius {
-  border-radius: 20px;
-}
-.image-padding {
-  /* Sets padding on all sides to 20px */
-  padding: 20px;
-  background-color: #928b8f;
-}
-
-.image-border {
-  /* Sets border on all sides */
-  border: 10px solid #f0ead6cb;
-}
-
-.image-margin {
-  /* Sets all sides to 20px */
-  margin: 20px;
-}
-
 footer {
   background-color: rgb(107, 109, 109);
   color: #2c2c2b;
   width: 100%;
   height: 100px;
   margin: auto;
-  padding-bottom: 50px;
+  padding-top: 5%;
+  padding-bottom: 5%;
 
   line-height: auto;
   border-radius: 20px;
