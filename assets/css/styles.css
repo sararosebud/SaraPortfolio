@@ -11,6 +11,8 @@
 *     
   
   /* Element selectors */
+
+
   body {
   background-color: rgb(192, 190, 190);
   margin: 0;
@@ -23,6 +25,7 @@
   margin: 0;
   padding: 0;
 }
+
 
 header {
   height: 100%;
@@ -54,6 +57,34 @@ nav a {
   text-align: center;
 }
 
+/* button {
+  width: 250px;
+  margin: 0 .5%;
+  font-size: 200%;
+  color: #282a2c;
+  background-color: #fff;
+  border: 3px solid #010407;
+  border-radius: 20px;
+}
+
+/* The user's cursor is positioned over the element */
+/* button:hover {
+  background-color: #63504e;
+  color: #db5454;
+} */
+
+/* The user is actively pressing down on the element */
+/* button:active { */
+  /* font-size: 180%;
+  box-shadow: 0 0 10px #000 inset; */
+/* } */
+
+/* The element is currently in focus, either by tabbing to or clicking on it */
+/* button:focus {
+  outline: none;
+  border-color: #8ac4ff;
+} */ 
+
 h1 {
   color: #312f2f;
   font-size: 48px;
@@ -76,6 +107,24 @@ figure {
 
 ul {
   list-style-type: none;
+  padding: 0;
+  margin: 50px 20px;
+}
+
+ul li {
+  margin: auto;
+  display: inline-block;
+ 
+}
+ul li img {
+  width: 100%;
+  height: 100%;
+  display: flexbox;
+  flex-wrap: wrap;
+}
+ul li:hover img {
+  transform: scale(1.25);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 img {
@@ -83,13 +132,25 @@ img {
   border-radius: 20px;
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> 08a080cf89e149f48326b2bb47a44cf54caa732e
 /* Class selector */
 
 .container {
   position: relative;
   text-align: center;
   color: white;
+<<<<<<< HEAD
   justify-content: space-around;
+=======
+  justify-content:space-around;
+  
+>>>>>>> 08a080cf89e149f48326b2bb47a44cf54caa732e
 }
 
 /* Centered text */
@@ -105,10 +166,15 @@ img {
 
 .flex-container-1 {
   display: flex;
+<<<<<<< HEAD
   flex-wrap: wrap;
   padding-top: 5%;
   padding-bottom: 5%;
   justify-content: space-around;
+=======
+  flex-wrap: wrap;  
+    justify-content:space-around;
+>>>>>>> 08a080cf89e149f48326b2bb47a44cf54caa732e
   overflow: auto;
 }
 
@@ -204,6 +270,11 @@ img {
   /* Sets all sides to 20px */
   margin: 20px;
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 08a080cf89e149f48326b2bb47a44cf54caa732e
 
 /* ID selector */
 
@@ -218,7 +289,9 @@ img {
   text-align: center;
   font-size: 36px;
   user-select: all;
+  
 }
+
 #figure {
   width: 100%;
   max-height: fit-content;
@@ -233,10 +306,18 @@ img {
   max-width: 100%;
   border-radius: 20px;
   max-height: fit-content;
+<<<<<<< HEAD
 
   font-size: 28px;
   text-align: center;
   background-color: #af9f9f;
+=======
+  
+  font-size: 28px;
+  text-align: center;
+     background-color: #af9f9f;
+ 
+>>>>>>> 08a080cf89e149f48326b2bb47a44cf54caa732e
 }
 
 #project1 {
@@ -260,7 +341,12 @@ img {
   background-color: rgb(83, 83, 83);
   text-align: center;
   font-size: 36px;
+<<<<<<< HEAD
   color: rgb(247, 164, 192);
+=======
+  color: rgb(252, 252, 252);
+  
+>>>>>>> 08a080cf89e149f48326b2bb47a44cf54caa732e
 }
 
 #project3 {
@@ -288,6 +374,7 @@ img {
 }
 
 #contact-section {
+<<<<<<< HEAD
   max-width: 100%;
   border-radius: 20px;
   max-height: fit-content;
@@ -295,6 +382,19 @@ img {
   font-size: 28px;
   text-align: center;
 
+=======
+ 
+  max-width: 100%;
+  border-radius: 20px;
+  max-height: fit-content;
+  padding-top:20px;
+  
+  font-size: 28px;
+  text-align: center;
+  
+
+  
+>>>>>>> 08a080cf89e149f48326b2bb47a44cf54caa732e
   /* display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -306,7 +406,7 @@ img {
   line-height: auto;
   border-radius: 20px;
 /*  */
-  background-color: #f0ead6;
+
   /* font-size: 28px; */
   /* text-align: center; */
 }
@@ -379,8 +479,13 @@ footer {
   width: 100%;
   height: 100px;
   margin: auto;
+<<<<<<< HEAD
   padding-top: 5%;
   padding-bottom: 5%;
+=======
+  padding-bottom: 50px;
+  padding-top: 20px;
+>>>>>>> 08a080cf89e149f48326b2bb47a44cf54caa732e
 
   line-height: auto;
   border-radius: 20px;
