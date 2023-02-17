@@ -11,6 +11,8 @@
 *     
   
   /* Element selectors */
+
+
   body {
   background-color: rgb(192, 190, 190);
   margin: 0;
@@ -23,6 +25,7 @@
    margin: 0;
    padding: 0;
 }
+
 
 header {
   height: 100%;
@@ -54,6 +57,34 @@ nav a {
   text-align: center;
 }
 
+/* button {
+  width: 250px;
+  margin: 0 .5%;
+  font-size: 200%;
+  color: #282a2c;
+  background-color: #fff;
+  border: 3px solid #010407;
+  border-radius: 20px;
+}
+
+/* The user's cursor is positioned over the element */
+/* button:hover {
+  background-color: #63504e;
+  color: #db5454;
+} */
+
+/* The user is actively pressing down on the element */
+/* button:active { */
+  /* font-size: 180%;
+  box-shadow: 0 0 10px #000 inset; */
+/* } */
+
+/* The element is currently in focus, either by tabbing to or clicking on it */
+/* button:focus {
+  outline: none;
+  border-color: #8ac4ff;
+} */ 
+
 h1 {
   color: #312f2f;
   font-size: 48px;
@@ -76,6 +107,24 @@ figure {
 
 ul {
   list-style-type: none;
+  padding: 0;
+  margin: 50px 20px;
+}
+
+ul li {
+  margin: auto;
+  display: inline-block;
+ 
+}
+ul li img {
+  width: 100%;
+  height: 100%;
+  display: flexbox;
+  flex-wrap: wrap;
+}
+ul li:hover img {
+  transform: scale(1.25);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 img {
@@ -85,13 +134,15 @@ img {
 
 
 
+
+
 /* Class selector */
 
 .container {
   position:relative;
   text-align: center;
   color: white;
-  justify-content:space-around
+  justify-content:space-around;
   
 }
 
@@ -110,8 +161,7 @@ img {
 .flex-container-1 {
   display: flex;
   flex-wrap: wrap;  
-  padding-top:10%;
-  justify-content:space-around;
+    justify-content:space-around;
   overflow: auto;
 }
 
@@ -191,6 +241,26 @@ img {
   }
 }
 
+.image-radius {
+  border-radius: 20px;
+}
+.image-padding {
+  /* Sets padding on all sides to 20px */
+  padding: 20px;
+  background-color: #928b8f;
+}
+
+.image-border {
+  /* Sets border on all sides */
+  border: 10px solid #f0ead6cb;
+}
+
+.image-margin {
+  /* Sets all sides to 20px */
+  margin: 20px;
+}
+
+
 
 /* ID selector */
 
@@ -205,7 +275,9 @@ img {
   text-align: center;
   font-size: 36px;
   user-select: all;
+  
 }
+
 #figure {
   width: 100%;
   max-height:fit-content;
@@ -220,13 +292,11 @@ img {
   max-width: 100%;
   border-radius: 20px;
   max-height: fit-content;
-  padding-bottom: 10%;
+  
   font-size: 28px;
   text-align: center;
      background-color: #af9f9f;
  
-  
-
 }
 
 #project1 {
@@ -253,7 +323,7 @@ img {
   background-color: rgb(83, 83, 83);
   text-align: center;
   font-size: 36px;
-  color: rgb(247, 164, 192);
+  color: rgb(252, 252, 252);
   
 }
 
@@ -284,13 +354,16 @@ img {
 }
 
 #contact-section {
-
+ 
   max-width: 100%;
   border-radius: 20px;
   max-height: fit-content;
-  padding-bottom: 10%;
+  padding-top:20px;
+  
   font-size: 28px;
   text-align: center;
+  
+
   
   /* display: flex;
   flex-direction: row;
@@ -303,7 +376,7 @@ img {
   line-height: auto;
   border-radius: 20px;
 /*  */
-  background-color: #f0ead6;
+
   /* font-size: 28px; */
   /* text-align: center; */
 }
@@ -370,25 +443,6 @@ img {
   color: rgb(107, 109, 109);
 }
 
-.image-radius {
-  border-radius: 20px;
-}
-.image-padding {
-  /* Sets padding on all sides to 20px */
-  padding: 20px;
-  background-color: #928b8f;
-}
-
-.image-border {
-  /* Sets border on all sides */
-  border: 10px solid #f0ead6cb;
-}
-
-.image-margin {
-  /* Sets all sides to 20px */
-  margin: 20px;
-}
-
 footer {
   background-color: rgb(107, 109, 109);
   color: #2c2c2b;
@@ -396,6 +450,7 @@ footer {
   height: 100px;
   margin: auto;
   padding-bottom: 50px;
+  padding-top: 20px;
 
   line-height: auto;
   border-radius: 20px;
